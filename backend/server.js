@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-const uri = 'mongodb+srv://akiouiilyas:MU6wktPb6F8CltC8@crud.fj6zg.mongodb.net/ma_base?retryWrites=true&w=majority';
+const uri = '';
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
